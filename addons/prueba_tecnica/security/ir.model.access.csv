@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_create,perm_unlink
+access_prueba_contact,access.prueba.contact,model_prueba_contact,,1,1,1
+access_res_users,access.res.users,model_res_users,,1,1,1
+access_product_product,access.product.product,model_product_product,,1,1,1
+access_sale_order,access.sale.order,model_sale_order,,1,1,1
+access_project_task,access.project.task,model_project_task,,1,1,1
