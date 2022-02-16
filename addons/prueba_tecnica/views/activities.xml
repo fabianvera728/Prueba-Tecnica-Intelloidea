@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record model="ir.actions.act_window" id="activities_action">
+        <field name="name">Actividades usuario</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">project.task</field>
+        <field name="view_mode">tree,kanban,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Asigna tus actividades
+            </p>
+        </field>
+    </record>
+
+    <menuitem
+            id="menu_prueba_activities_root"
+            name="Activities"
+            parent="menu_prueba_root"
+            sequence="8"
+    />
+
+    <menuitem
+            id="menu_prueba_activities"
+            name="Activities"
+            parent="menu_prueba_activities_root"
+            action="activities_action"
+            sequence="8"
+    />
+
+</odoo>
